@@ -1,0 +1,5 @@
+/* 레이아웃 */
+#header {background-color: black; height: 100px; width: 100%;}
+#wrap { width: 1200px; margin: 0 auto;}
+#content {background-color: yellow; height: 1200px; width: 100%;}
+#footer {background-color: black; height: 100px; width: 100%;}
