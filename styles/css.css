@@ -1,5 +1,56 @@
-/* 레이아웃 */
-#header {background-color: black; height: 100px; width: 100%;}
-#wrap { width: 1200px; margin: 0 auto;}
-#content {background-color: yellow; height: 1200px; width: 100%;}
-#footer {background-color: black; height: 100px; width: 100%;}
+/* layout */
+* {margin: 0; padding: 0;}
+main {background-color: #EAEDED;}
+#header {
+    background-color: black; 
+    height: 100px; width: 100%;
+}
+#footer {
+    background-color: black; 
+    height: 100px; 
+    width: 100%;
+}
+
+/* container */
+.container {
+    width: 1600px; 
+    margin: 0 auto;
+}
+
+/* banner */
+#content .banner .container .banner-img {
+    height: 600px;
+}
+
+/* card */
+.article-card {
+    width: 1500px;
+}
+.article-card .card {
+    height: 420px;
+    width: 355px;
+    background-color: white;
+    margin: 10px 10px;
+    float: left;
+}
+.article-card .card-col5 {
+    width: 730px;
+}
+.article-card .card .card-body .card-content img{
+    width: 350px;
+    padding-top: 50px;
+}
+.article-card .card .card-body .content-size-x2 img{
+    width: 600px;
+}
+.clear {
+    clear: both;
+}
+
+/* scroll-carousel */
+.article-scroll-carousel {
+    height: 100px;
+    width: 1460px;
+    margin: 10px;
+    background-color: white;
+}
