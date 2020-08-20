@@ -13,13 +13,15 @@ main {background-color: #EAEDED;}
 
 /* container */
 .container {
-    width: 1600px; 
+    width: 1480px; 
     margin: 0 auto;
 }
 
 /* banner */
 #content .banner .container .banner-img {
+    width: 1480px;
     height: 600px;
+    margin-left: 10px;
 }
 
 /* card */
@@ -38,7 +40,6 @@ main {background-color: #EAEDED;}
 }
 .article-card .card .card-body .card-content img{
     width: 350px;
-    padding-top: 50px;
 }
 .article-card .card .card-body .content-size-x2 img{
     width: 600px;
@@ -49,8 +50,28 @@ main {background-color: #EAEDED;}
 
 /* scroll-carousel */
 .article-scroll-carousel {
-    height: 100px;
-    width: 1460px;
+    overflow: hidden;
+    width: 1480px;
     margin: 10px;
     background-color: white;
+}
+
+.article-scroll-carousel .scroll-carousel-img {
+    height: 200px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space:nowrap;
+}
+
+
+.article-scroll-carousel .scroll-carousel-img img {
+    width: 200px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+/* hr */
+.flow-row-break {
+    border: none;
+    height: 20px;
 }
